@@ -99,6 +99,11 @@ header{
     align-items: center;
 }
 
+.action_container a{
+    color: #282c3f;
+    text-decoration: none;
+}
+
 
 
 /* Main Section */
