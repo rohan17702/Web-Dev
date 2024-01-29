@@ -108,6 +108,23 @@ header{
     text-decoration: none;
 }
 
+.bag_item_count{ 
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .footer_container{
     padding: 30px 0px 40px 0px;
     background: #FAFBFC;
@@ -143,10 +160,16 @@ header{
 .items_container{
     width: 80% ;
     margin: 40px 10%;
+    display: flex;
+    width: 80%;
+    margin: 50px 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .item_container{
     width: 250px;
+    margin: 10px;
 
 }
 
@@ -224,5 +247,6 @@ header{
     border: none;
     padding: 8px 15px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
